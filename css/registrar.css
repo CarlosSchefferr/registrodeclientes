@@ -1,0 +1,193 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+    
+}
+
+
+.registro-de-usuario-child {
+    position: absolute;
+    top: 89px;
+    left: 360px;
+    border-radius: 110px;
+    background-color: #fff;
+    width: 559px;
+    height: 653px;
+}
+.registro-de-usurio {
+    position: absolute;
+    top: 177px;
+    left: 462px;
+    font-size: 40px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #00b9d1;
+    box-sizing: border-box;
+    width: 356px;
+    height: 54px;
+}
+.digite-sua-senha {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    display: inline-block;
+    width: 228px;
+    height: 18px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #00b9d1;
+    box-sizing: border-box;
+    width: 356px;
+    height: 54px;
+    padding: 10px;
+   
+}
+
+.rectangle-parent::placeholder {
+    color: #50505C;
+    
+}
+
+
+
+
+
+.senha1 {
+    margin: 0;
+}
+.senha {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #003e59;
+}
+.password-input {
+    position: absolute;
+    top: 97px;
+    left: 0px;
+    width: 356px;
+    height: 81px;
+}
+.usurio {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #003e59;
+}
+.usurio-input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 356px;
+    height: 81px;
+}
+.submit-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #00b9d1;
+    width: 356px;
+    height: 54px;
+}
+.registrar {
+    position: absolute;
+    top: 16px;
+    left: calc(50% - 41px);
+}
+
+.registrar:hover {
+    cursor: pointer;
+}
+
+.submit {
+    position: absolute;
+    top: 202px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 356px;
+    height: 54px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+}
+
+.submit-child:hover {
+    cursor: pointer;
+    background-color: #003e59;
+}
+
+
+
+
+.formulario-registro {
+    position: absolute;
+    top: 257px;
+    left: 462px;
+    width: 356px;
+    height: 256px;
+    font-size: 16px;
+    color: #50505c;
+}
+.voltar-botao-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    width: 115px;
+    height: 34px;
+}
+.voltar {
+    position: absolute;
+    top: 6.23px;
+    left: calc(50% - 25.5px);
+    font-weight: 600;
+    display: inline-block;
+    width: 52px;
+    height: 21.5px;
+}
+.voltar-botao {
+    position: absolute;
+    top: 607px;
+    left: 577px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 115px;
+    height: 34px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+}
+
+.voltar-botao:hover {
+    cursor: pointer;
+}
+
+
+.registro-de-usuario {
+    width: 100%;
+    position: absolute;
+    background-color: #003e59;
+    height: 100%;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #043e59;
+    font-family: Inter;
+}
+
+.alinhar {
+    position: relative;
+    top: 0px;
+    left: 50px;
+}

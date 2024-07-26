@@ -1,0 +1,135 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+   
+    
+}
+
+
+
+
+
+.pagina-inicial-child {
+    position: absolute;
+    top: 73px;
+    left: 360px;
+    border-radius: 110px;
+    background-color: #fff;
+    width: 559px;
+    height: 653px;
+    
+    
+}
+
+
+
+
+.fazer-login-botao-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #00b9d1;
+    width: 356px;
+    height: 54px;
+    
+}
+
+.fazer-login-botao-child:hover {
+    cursor: pointer;
+    background-color: #003e59;
+}
+
+
+.fazer-login {
+    position: absolute;
+    top: 16px;
+    left: calc(50% - 49px);
+}
+.fazer-login-botao {
+    border: none;
+    position: absolute;
+    top: 334px;
+    left: 462px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 356px;
+    height: 54px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Inter';
+}
+
+.fazer-login-botao:hover {
+     cursor: pointer;
+}
+    
+
+
+.ou {
+    position: absolute;
+    top: 418px;
+    left: 626px;
+    font-size: 16px;
+}
+.registrar {
+    position: absolute;
+    top: 16px;
+    left: calc(50% - 44px);
+}
+
+.registrar:hover {
+    cursor: pointer;
+}
+
+
+.fazer-login:hover {
+    cursor: pointer;
+
+}
+
+.registrar-botao {
+    position: absolute;
+    top: 466px;
+    left: 462px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 356px;
+    height: 54px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Inter';
+    border: none;
+}
+.esse-o {
+    position: absolute;
+    top: 247px;
+    left: 486px;
+    font-size: 16px;
+}
+.bem-vindo {
+    position: absolute;
+    top: 178px;
+    left: 509px;
+    font-size: 48px;
+}
+.pagina-inicial {
+    width: 100%;
+    position: absolute;
+    background-color: #003e59;
+    height: 100%;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #043e59;
+    font-family: Inter;
+}
+
+.alinhar {
+   position: relative;
+   top: 0px;
+   left: 50px;
+    
+}
+

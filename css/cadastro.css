@@ -1,0 +1,449 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.cadastro-pagina-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #00b9d1;
+  	width: 1400px;
+  	height: 74px;
+}
+.registro-de-clientes {
+  	position: absolute;
+  	top: 15px;
+  	left: 349px;
+  	font-size: 36px;
+}
+.group-child {
+  	position: absolute;
+  	top: 1px;
+  	left: 0px;
+  	border-radius: 4px;
+  	background-color: #fff;
+  	border: 1px solid #00b9d1;
+  	box-sizing: border-box;
+  	width: 560px;
+  	height: 54px;
+}
+.cpf-input-inner {
+  	position: absolute;
+  	top: 20px;
+  	left: 0px;
+  	width: 566px;
+  	height: 54px;
+}
+.cpf-label {
+  	position: absolute;
+  	top: -25px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 10.2px;
+}
+.cpf-input {
+  	position: absolute;
+  	top: 130px;
+  	width: 0px;
+  	height:10px;
+}
+
+
+
+
+.nome-input-inner {
+  	position: absolute;
+  	top: 29px;
+  	left: 0px;
+  	width: 566px;
+  	height: 54px;
+
+}
+
+
+
+#nome-completo {
+    position: absolute;
+  	top: 30px;
+  	left: 0px;
+  	width: 560px;
+  	height: 50px;
+    border-color: #00b9d1;
+
+}
+
+.data-label {
+  	position: absolute;
+  	top: -25px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 251.2px;
+}
+
+.cel-label {
+  	position: absolute;
+  	top: -25px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 111.3px;
+}
+
+.tel-label {
+  	position: absolute;
+  	top: -25px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 111.3px;
+}
+
+.data-de-nascimento-input {
+  	position: absolute;
+  	top: 228px;
+  	left: 0px;
+  	width: 566px;
+  	height: 81px;
+}
+.telefone {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 111.3px;
+}
+.telefone-input {
+  	position: absolute;
+  	top: 341px;
+  	left: 0px;
+  	width: 566px;
+  	height: 81px;
+}
+.group-child1 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 4px;
+  	background-color: #f8f8ff;
+  	border: 1px solid #00b9d1;
+  	box-sizing: border-box;
+  	width: 566px;
+  	height: 54px;
+}
+.celular1 {
+  	margin: 0;
+}
+.celular {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 92.2px;
+}
+.celular-input {
+  	position: absolute;
+  	top: 454px;
+  	left: 0px;
+  	width: 566px;
+  	height: 81px;
+}
+.formulario {
+  	position: absolute;
+  	top: 52px;
+  	left: 0px;
+  	width: 566px;
+  	height: 535px;
+}
+.cliente {
+  	position: absolute;
+  	top: 0px;
+  	left: 228px;
+  	font-size: 24px;
+  	display: inline-block;
+  	width: 133.6px;
+}
+.secao-clientes {
+  	position: absolute;
+  	top: 153px;
+  	left: 357px;
+  	width: 566px;
+  	height: 587px;
+}
+.rua {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 52.5px;
+}
+.bairro {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 77.9px;
+}
+.cidade {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 85.9px;
+}
+.estado {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 84.3px;
+}
+.formulario1 {
+  	position: absolute;
+  	top: 69px;
+  	left: 0px;
+  	width: 566px;
+  	height: 535px;
+}
+.endereo {
+  	position: absolute;
+  	top: 0px;
+  	left: 206px;
+  	font-size: 24px;
+  	display: inline-block;
+  	width: 178.1px;
+}
+.secao-endereco {
+  	position: absolute;
+  	top: 963px;
+  	left: 357px;
+  	width: 566px;
+  	height: 604px;
+}
+.estado-input1 {
+  	position: absolute;
+  	top: 1604px;
+  	left: 357px;
+  	width: 566px;
+  	height: 81px;
+}
+.id-do-cliente {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 116px;
+}
+.estado-input2 {
+  	position: absolute;
+  	top: 1722px;
+  	left: 357px;
+  	width: 566px;
+  	height: 81px;
+}
+.registrar-cliente-botao-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 4px;
+  	background-color: #00b9d1;
+  	width: 356px;
+  	height: 54px;
+
+
+}
+
+.group-child {
+    padding: 10px;
+}
+
+.registrar-cliente-botao-child:hover {
+  	cursor: pointer;
+  	background-color: #000000;
+}
+
+.group-child:focus {
+    outline: none; /* Remove o contorno padrão */
+    border: 2px solid #00b9d1; /* Cor da borda quando o campo está em foco */
+}
+
+
+.registrar-cliente {
+  	position: absolute;
+  	top: 16px;
+  	left: calc(50% - 74px);
+}
+.registrar-cliente-botao {
+  	position: absolute;
+  	top: 787px;
+  	left: 462px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	width: 356px;
+  	height: 54px;
+  	font-size: 18px;
+}
+
+
+
+
+.registrar-endereo {
+  	position: absolute;
+  	top: 16px;
+  	left: calc(50% - 85px);
+}
+.registrar-endereco-botao {
+  	position: absolute;
+  	top: 1928px;
+  	left: 462px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	width: 356px;
+  	height: 54px;
+  	font-size: 18px;
+}
+
+
+.cep-label {
+  	position: absolute;
+  	top: -25px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 52.5px;
+}
+
+.rua-label {
+  	position: absolute;
+  	top: -25px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 52.5px;
+}
+
+.bairro-label {
+  	position: absolute;
+  	top: -25px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 77.9px;
+}
+
+
+.cidade-label {
+  	position: absolute;
+  	top: -25px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 85.9px;
+}
+
+
+.estado-label {
+  	position: absolute;
+  	top: -25px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 84.3px;
+}
+
+
+
+.pais-label {
+  	position: absolute;
+  	top: -25px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 84.3px;
+}
+
+
+.id-label {
+  	position: absolute;
+  	top: -25px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 100.3px;
+}
+
+
+
+.registrar-endereco-botao:hover {
+  	cursor: pointer;
+  	background-color: #000000;
+}
+
+
+.exportar-banco-de {
+  	position: absolute;
+  	top: 16px;
+  	left: calc(50% - 112px);
+}
+
+
+.exportar-banco-de:hover {
+  	cursor: pointer;
+}
+
+.exportar-banco-de-dados-botao {
+  	position: absolute;
+  	top: 2163px;
+  	left: 462px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	width: 356px;
+  	height: 54px;
+  	font-size: 18px;
+}
+.upload-banco-de-dados-botao {
+  	position: absolute;
+  	top: 2077px;
+  	left: 462px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	width: 356px;
+  	height: 54px;
+  	font-size: 18px;
+}
+.endereo-principal {
+  	position: absolute;
+  	top: 0px;
+  	left: 32px;
+  	display: inline-block;
+  	width: 177px;
+}
+.endereco-principal-secao-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 5px;
+  	background-color: #fff;
+  	width: 20px;
+  	height: 20px;
+    border: none;
+}
+
+.endereco-principal-secao-child:hover {
+  	cursor: pointer;
+}
+
+
+.endereco-principal-secao-child.ativo {
+  	background-color: #00b9d1;
+}
+
+
+
+.endereco-principal-secao {
+  	position: absolute;
+  	top: 1828px;
+  	left: 535px;
+  	width: 209px;
+  	height: 20px;
+}
+.cadastro-pagina {
+  	width: 100%;
+  	position: relative;
+  	background-color: #043e59;
+  	height: 2296px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #fff;
+  	font-family: Inter;
+}
+

@@ -1,0 +1,191 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+    
+}
+
+.login-child {
+    position: absolute;
+    top: 89px;
+    left: 370px;
+    border-radius: 110px;
+    background-color: #fff;
+    width: 559px;
+    height: 653px;
+}
+.entrar {
+    position: absolute;
+    top: 177px;
+    left: 462px;
+    font-size: 40px;
+}
+.voltar-botao-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    width: 115px;
+    height: 34px;
+}
+
+.voltar-botao-child:hover {
+    cursor: pointer;
+}
+
+
+
+.voltar1 {
+    margin: 0;
+}
+.voltar {
+    position: absolute;
+    top: 6.23px;
+    left: calc(50% - 25.5px);
+    font-weight: 600;
+    display: inline-block;
+    width: 52px;
+    height: 21.5px;
+}
+
+
+.voltar:hover {
+    cursor: pointer;
+}
+
+
+
+.voltar-botao {
+    border: none;
+    position: absolute;
+    top: 600px;
+    left: 582px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 115px;
+    height: 34px;
+    font-size: 18px;
+    color: #fff;
+}
+.fazer-login-botao-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #00b9d1;
+    width: 356px;
+    height: 54px;
+}
+
+.fazer-login-botao-child:hover {
+    cursor: pointer;
+    background-color: #003e59;
+}
+
+
+
+.fazer-login {
+    position: absolute;
+    top: 16px;
+    left: calc(50% - 49px);
+}
+
+.fazer-login:hover {
+    cursor: pointer;
+}
+
+
+.fazer-login-botao {
+    position: absolute;
+    top: 202px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 356px;
+    height: 54px;
+    font-size: 18px;
+    color: #fff;
+}
+.area-senha-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #00b9d1;
+    box-sizing: border-box;
+    width: 356px;
+    height: 54px;
+}
+.digite-sua-senha {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    display: inline-block;
+    width: 228px;
+    height: 18px;
+}
+.area-senha {
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #00b9d1;
+    box-sizing: border-box;
+    width: 356px;
+    height: 54px;
+    padding: 10px;
+}
+
+.area-senha::placeholder {
+    color: #50505C;
+    
+}
+
+
+.senha {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #003e59;
+}
+.password-input {
+    position: absolute;
+    top: 97px;
+    left: 0px;
+    width: 356px;
+    height: 81px;
+}
+.usurio-input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 356px;
+    height: 81px;
+}
+.formulario-login {
+    position: absolute;
+    top: 257px;
+    left: 460px;
+    width: 356px;
+    height: 256px;
+    font-size: 16px;
+    color: #50505c;
+}
+.login {
+    width: 100%;
+    position: absolute;
+    background-color: #003e59;
+    height: 100%;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #043e59;
+    font-family: Inter;
+}
+
+.alinhar {
+    position: relative;
+    top: 0px;
+    left: 50px;
+    
+}
