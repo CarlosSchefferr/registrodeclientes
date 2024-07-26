@@ -447,3 +447,24 @@ body {
   	font-family: Inter;
 }
 
+
+
+
+
+@media (min-width: 1400px) {
+    .alinhar {
+		position: relative;
+		top: 0px;
+		left: 290px;
+        
+        
+    }
+
+	.cadastro-pagina-child {
+		width: 1950px;
+		left: -290px;
+	}
+
+}
+
+
