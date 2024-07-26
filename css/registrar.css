@@ -79,7 +79,7 @@ body {
     width: 356px;
     height: 81px;
 }
-.usurio {
+.usuario {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -111,7 +111,7 @@ body {
     cursor: pointer;
 }
 
-.submit {
+.registrar-botao {
     position: absolute;
     top: 202px;
     left: 0px;
@@ -190,4 +190,23 @@ body {
     position: relative;
     top: 0px;
     left: 50px;
+}
+
+
+@media (min-width: 1400px) {
+    .alinhar {
+        top: 50px;
+        left: 290px;
+        
+    }
+}
+
+
+
+@media (max-widht: 1400px) {
+    .alinhar {
+        top: 50px;
+        left: 2px;
+        
+    }
 }

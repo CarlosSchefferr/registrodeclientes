@@ -133,3 +133,12 @@ body {
     
 }
 
+@media (min-width: 1400px) {
+    .alinhar {
+        top: 50px;
+        left: 290px;
+        
+    }
+}
+
+

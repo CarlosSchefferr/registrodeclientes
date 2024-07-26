@@ -35,8 +35,9 @@ body {
 
 
 
-.voltar1 {
+.senha {
     margin: 0;
+    color: #003e59;
 }
 .voltar {
     position: absolute;
@@ -103,6 +104,7 @@ body {
     height: 54px;
     font-size: 18px;
     color: #fff;
+    border: none;
 }
 .area-senha-child {
     position: absolute;
@@ -142,7 +144,7 @@ body {
 }
 
 
-.senha {
+.usuario {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -189,3 +191,21 @@ body {
     left: 50px;
     
 }
+
+
+
+
+
+
+
+@media (min-width: 1400px) {
+    .alinhar {
+        top: 50px;
+        left: 290px;
+        
+    }
+}
+
+
+
+
