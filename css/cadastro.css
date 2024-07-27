@@ -258,7 +258,8 @@ body {
 
 .registrar-cliente-botao-child:hover {
   	cursor: pointer;
-  	background-color: #000000;
+  	background-color: #ffffff;
+	color: #043e59;
 }
 
 .group-child:focus {
@@ -276,10 +277,20 @@ body {
   	position: absolute;
   	top: 787px;
   	left: 462px;
+	border: none;
+	border-radius: 10px;
+	background-color: #00b9d1;
+	color: #ffffff;
   	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   	width: 356px;
   	height: 54px;
   	font-size: 18px;
+}
+
+.registrar-cliente-botao:hover {
+  	cursor: pointer;
+  	background-color: #ffffff;
+	color: #043e59;
 }
 
 
@@ -294,6 +305,10 @@ body {
   	position: absolute;
   	top: 1928px;
   	left: 462px;
+	border: none;
+	border-radius: 10px;
+	background-color: #00b9d1;
+	color: #ffffff;
   	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   	width: 356px;
   	height: 54px;
@@ -366,7 +381,8 @@ body {
 
 .registrar-endereco-botao:hover {
   	cursor: pointer;
-  	background-color: #000000;
+  	background-color: #ffffff;
+	color: #043e59;
 }
 
 
@@ -385,20 +401,44 @@ body {
   	position: absolute;
   	top: 2163px;
   	left: 462px;
+	border: none;
+	border-radius: 10px;
+	background-color: #00b9d1;
+	color: #ffffff;
   	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   	width: 356px;
   	height: 54px;
   	font-size: 18px;
 }
+
+.exportar-banco-de-dados-botao:hover {
+  	cursor: pointer;
+  	background-color: #ffffff;
+	color: #043e59;
+}
+
+
 .upload-banco-de-dados-botao {
   	position: absolute;
   	top: 2077px;
   	left: 462px;
+	border: none;
+	border-radius: 10px;
+	background-color: #00b9d1;
+	color: #ffffff;
   	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   	width: 356px;
   	height: 54px;
   	font-size: 18px;
 }
+
+.upload-banco-de-dados-botao:hover {
+  	cursor: pointer;
+  	background-color: #ffffff;
+	color: #043e59;
+}
+
+
 .endereo-principal {
   	position: absolute;
   	top: 0px;
@@ -446,6 +486,57 @@ body {
   	color: #fff;
   	font-family: Inter;
 }
+
+
+
+@media (min-width: 768px) {
+	.alinhar {
+		position: relative;
+		top: 0px;
+		left: 0px;
+		
+	}
+
+	.cadastro-pagina-child {
+		width: 768px;
+		left: 0px;
+	}
+
+}
+
+
+
+@media (min-width: 1024px) {
+	.alinhar {
+		position: relative;
+		top: 0px;
+		left: 0px;
+		
+	}
+
+	.cadastro-pagina-child {
+		width: 1024px;
+		left: 0px;
+	}
+
+}
+
+
+@media (min-width: 1280px) {
+	.alinhar {
+		position: relative;
+		top: 0px;
+		left: 0px;
+		
+	}
+
+	.cadastro-pagina-child {
+		width: 1280px;
+		left: 0px;
+	}
+
+}
+
 
 
 

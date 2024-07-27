@@ -133,6 +133,45 @@ body {
     
 }
 
+
+@media (min-width: 768px) {
+    .alinhar {
+        top: 50px;
+        left: 0px;
+        
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .alinhar {
+        top: 50px;
+        left: 0px;
+        
+    }
+}
+
+
+@media (min-width: 1280px) {
+    .alinhar {
+        top: -20px;
+        left: 0px;
+        
+    }
+}
+
+
+@media (min-width: 1366px) {
+    .alinhar {
+        top: 50px;
+        left: 0px;
+        
+    }
+}
+
+
+
+
 @media (min-width: 1400px) {
     .alinhar {
         top: 50px;
@@ -140,5 +179,33 @@ body {
         
     }
 }
+
+@media (min-width: 1440px) {
+    .alinhar {
+        top: 50px;
+        left: 95px;
+        
+    }
+}
+
+
+@media (min-width: 1600px) {
+    .alinhar {
+        top: 50px;
+        left: 0px;
+        
+    }
+}
+
+
+@media (min-width: 1920px) {
+    .alinhar {
+        top: 50px;
+        left: 0px;
+        
+    }
+}
+
+
 
 

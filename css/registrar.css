@@ -210,3 +210,11 @@ body {
         
     }
 }
+
+@media (min-width: 1440px) {
+    .alinhar {
+        top: 50px;
+        left: 95px;
+        
+    }
+}

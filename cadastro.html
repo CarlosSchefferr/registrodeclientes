@@ -3,7 +3,7 @@
 <head>
   	<meta charset="utf-8">
   	<meta name="viewport" content="initial-scale=1, width=device-width">
-  	
+  	<script src="https://cdn.jsdelivr.net/npm/alasql@0.4.11/dist/alasql.min.js"></script>
   	<link rel="stylesheet"  href="./css/cadastro.css" />
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
   	
@@ -13,8 +13,6 @@
 <body>
   	
   	<div class="cadastro-pagina">
-
-		<div class="alinhar">
     		<div class="cadastro-pagina-child">
     		</div>
     		<b class="registro-de-clientes">Registro de Clientes e Endereços</b>
@@ -22,7 +20,7 @@
       			<div class="formulario">
                        <div class="cpf-input">
                             <label for="cpf" class="cpf-label">CPF:</label>
-                            <input type="text" id="cpf" name="cpf" class="group-child"/>
+                            <input type="text" id="cpf" name="cpf" class="group-child" />
                         </div>
                     
         				<div class="nome-input">
@@ -96,32 +94,24 @@
                 <input type="number" id="id-do-cliente" name="id-do-cliente" class="group-child">
             </div>
 
-    		<div class="registrar-cliente-botao">
-      			<div class="registrar-cliente-botao-child">
-      			</div>
-      			<b class="registrar-cliente">Registrar Cliente </b>
-    		</div>
-    		<div class="registrar-endereco-botao">
-      			<div class="registrar-cliente-botao-child">
-      			</div>
-      			<b class="registrar-endereo">Registrar Endereço </b>
-    		</div>
-    		<div class="exportar-banco-de-dados-botao">
-      			<div class="registrar-cliente-botao-child">
-      			</div>
-      			<b class="exportar-banco-de">Exportar Banco de Dados</b>
-    		</div>
-    		<div class="upload-banco-de-dados-botao">
-      			<div class="registrar-cliente-botao-child">
-      			</div>
-      			<b class="exportar-banco-de">Upload de Banco de Dados</b>
-    		</div>
+    		<button class="registrar-cliente-botao">
+				Registrar Cliente
+			</button>
+			<button class="registrar-endereco-botao">
+				Registrar Endereço
+			</button>
+			<button class="exportar-banco-de-dados-botao">
+				Exportar Banco de Dados
+			</button>
+			<button class="upload-banco-de-dados-botao">
+				Upload de Banco de Dados
+			</button>
+			<input type="file" id="file-upload" style="display: none;" />
     		<div class="endereco-principal-secao">
       			<div class="endereo-principal">Endereço Principal</div>
       			<button class="endereco-principal-secao-child" id="enderecoPrincipalBotao">
                 </button>
     		</div>
-		</div>	
   	</div>
   	
   	
