@@ -1,10 +1,10 @@
     document.addEventListener('DOMContentLoaded', () => {
         
-        loadDatabase(); // Carregar o banco de dados ao carregar a página
+        loadDatabase(); 
 
-        // Adicionar eventos de clique
+        
         document.getElementById('redirecionar-para-inicio')?.addEventListener('click', () => {
-            window.location.href = 'index.html'; // Substitua pelo URL da página desejada
+            window.location.href = 'index.html'; 
         });
 
         document.querySelector('.fazer-login-botao')?.addEventListener('click', (e) => {
@@ -17,7 +17,7 @@
             register();
         });
 
-        // Adicionar eventos de clique
+        
         document.querySelector('.registrar-cliente-botao')?.addEventListener('click', (e) => {
             e.preventDefault();
             registerClient();
@@ -36,7 +36,6 @@
         document.querySelector('.upload-banco-de-dados-botao')?.addEventListener('click', (e) => {
             e.preventDefault();
             document.getElementById('file-upload').click();
-            // Implementar a funcionalidade de upload, se necessário
         });
 
         
@@ -45,11 +44,11 @@
     });
 
     document.getElementById('redirecionar-para-login')?.addEventListener('click', () => {
-        window.location.href = 'login.html'; // Substitua pelo URL da página de login
+        window.location.href = 'login.html'; 
     });
 
     document.getElementById('redirecionar-para-registrar')?.addEventListener('click', () => {
-        window.location.href = 'registrar.html'; // Substitua pelo URL da página de registro
+        window.location.href = 'registrar.html'; 
     });
 
     document.getElementById('enderecoPrincipalBotao')?.addEventListener('click', function() {
@@ -57,7 +56,7 @@
     });
 
 
-    // Função para salvar o banco de dados no localStorage
+    
     function saveDatabase() {
         const clients = alasql('SELECT * FROM clients');
         const addresses = alasql('SELECT * FROM addresses');
@@ -67,7 +66,7 @@
         localStorage.setItem('users', JSON.stringify(users));
     }
 
-    // Função para carregar o banco de dados do localStorage
+    
     function loadDatabase() {
         const clients = JSON.parse(localStorage.getItem('clients')) || [];
         const addresses = JSON.parse(localStorage.getItem('addresses')) || [];
@@ -91,7 +90,7 @@
     }
 
 
-    // Função de login
+    
     function login() {
         const username = document.getElementById('usuario').value.trim();
         const password = document.getElementById('senha').value.trim();
@@ -103,13 +102,13 @@
 
         if (user.length > 0) {
             alert('Login bem-sucedido!');
-            window.location.href = 'cadastro.html';  // Redirecionar para a página de cadastro
+            window.location.href = 'cadastro.html';  
         } else {
             alert('Usuário ou senha incorretos!');
         }
     }
 
-    // Função de registro
+   
     function register() {
         const newUsername = document.getElementById('usuario-registrar').value.trim();
         const newPassword = document.getElementById('senha-registrar').value.trim();
@@ -123,14 +122,14 @@
             alert('Usuário já existe!');
         } else {
             alasql('INSERT INTO users (username, password) VALUES (?, ?)', [newUsername, newPassword]);
-            saveDatabase(); // Salvar o banco de dados após registrar um novo usuário
+            saveDatabase(); 
             alert('Usuário cadastrado com sucesso!');
-            window.location.href = 'login.html';  // Redirecionar para a tela de login
+            window.location.href = 'login.html';  
         }
     }
 
 
-// Função de registro de cliente
+
 function registerClient() {
     const cpf = document.getElementById('cpf').value.trim();
     const name = document.getElementById('nome-completo').value.trim();
@@ -149,7 +148,7 @@ function registerClient() {
     }
 }
 
-// Função de registro de endereço
+
 function registerAddress() {
     const cep = document.getElementById('cep').value.trim();
     const street = document.getElementById('rua').value.trim();
@@ -176,7 +175,7 @@ function registerAddress() {
     }
 }
 
-// Função para exportar o banco de dados
+
 function exportDatabase() {
     const clients = alasql('SELECT * FROM clients');
     const addresses = alasql('SELECT * FROM addresses');
